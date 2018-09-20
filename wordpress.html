@@ -101,8 +101,17 @@
         .footer{
         	background-color:#FF1493;
         }
+         .hero-image {
+            
+     background: url(img/fondo.png)   ;
+   
+  height: 200px;
+background-size: cover;
+ 
+        }
     </style>
-
+    <link rel="stylesheet" href="magic/magic.min.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">   
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119693520-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -128,24 +137,18 @@
                 </ul>
             </div>
         </nav>
-        <br>
-    
-         
-        <br>
-        <br><img src="img/prof.jpg" alt="avatar" class="avatar" width="360px">
-        <br>
-        <br>
-        <br>
-        <br>
+         <div class="hero-image" id="hero-image" ></div>
+           <br> 
+ 
         <section id="quien-soy" class="main">
             <div class="center">
-              <img src="img/mantenimiento.png" alt="mantenimiento" title="mantenimiento" width="90px" height="72px">
-              <br> <br>
+              <img id="imagenes" src="img/mantenimiento.png" alt="mantenimiento" title="mantenimiento" width="90px" height="72px">
+              <br> 
                 <h2 class="seccion">Servicios de Mantenimiento Wordpress</h2>
  
  El servicio de mantenimiento WordPress que ofrezco es ideal para todas aquellas personas que no tienen tiempo o los conocimientos suficientes como para mantener todos los aspectos de su web.
  <br>
-<br>
+ 
 <div class="container-fluid">
 <h3 class="seccion">¿Qué te ofrezco?</h3>
  
@@ -161,18 +164,31 @@
       <div class="col-4" style="background-color:lavender;">Resolveré tus dudas relacionadas con WordPress y te daré recomendaciones según tus necesidades.</div>
   </div>
   </div>
- <br>
+  
 Protege tu activo en internet con un plan de mantenimiento Wordpress. Mantengo tu sitio Wordpress actualizado y seguro. Vive tranquilo.<img src="img/emoticon.png" alt="emoticon" title="emoticon" width="24px" height="24px">
  </div>
             
         </section>
-<br>
+ 
         <div class="footer">Luisa Guaiquirian ® 2018 Todos los derechos reservados.   </div>
 
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <script>
+      setTimeout(function(){
+  $('.hero-image').addClass('magictime slideUpReturn');
+  $('#imagenes').addClass('magictime slideDownReturn');
+ 
+}, 0);
+      
+    </script>
 </body>
 
 </html>

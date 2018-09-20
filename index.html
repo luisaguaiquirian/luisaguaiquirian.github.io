@@ -101,8 +101,17 @@
         .footer{
         	background-color:#FF1493;
         }
+        .hero-image {
+            
+     background: url(img/fondo.png)   ;
+   
+  height: 425px;
+background-size: cover;
+ 
+        }
     </style>
-
+    <link rel="stylesheet" href="magic/magic.min.css">
+    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">    
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119693520-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -128,54 +137,78 @@
                 </ul>
             </div>
         </nav>
-        <br>
-    
-         
-        <br>
-        <br><img src="img/prof.jpg" alt="avatar" class="avatar" width="360px">
-        <br>
-        <br>
-        <br>
-        <br>
+        
+        <div class="hero-image" id="hero-image" ></div>
+
+        <br> <br>
+        
         <section id="quien-soy" class="main">
             <div class="center">
                 <h2 class="seccion">Quien Soy</h2></div>
             <p><strong>Luisa Guaiquirian</strong>   es una Desarrolladora Web Freelance Profesional que construye sitios web asombrosos.
  
                <br>
-               <img src="img/cafe.png" class="imagenes" alt="cafe" ><img src="img/laptop.png" alt="laptop" class="imagenes" >
+               <img src="img/cafe.png" class="imagenes" alt="cafe" ><img src="img/laptop.png" alt="laptop" class="imagenes" ><img src="img/corazon.png" alt="corazon" class="imagenes" >
+
                 </p>
+                 <br> 
         </section>
         <section id="portafolio" class="main">
             <div class="center">
                 <h2 class="seccion">Portafolio</h2></div>
-              <a href='http://lolacaracas.com/' target="_blank" title='lolacaracas'><img width="300px" height="139px" src="portafolio/img/lolacaracas.png" alt="lolacaracas"></a>
-            <a href='http://www.gourmetmarket.com.ve/' target="_blank" title='gourmetmarket'><img src="portafolio/img/gourmetmarket.png" width="300px" height="137px" alt="gourmetmarket"></a>
-             <a href='http://www.inmevenca.com/' target="_blank" title='inmevenca'><img src="portafolio/img/inmevenca.png" width="300px" height="137px" alt="inmevenca"></a>
-              <a href='http://stretchven.com/' target="_blank" title='stretchven'><img src="portafolio/img/stretchven.png" width="300px" height="137px" alt="stretchven"></a>
+
+                 <div class="container-fluid">
+        <div class="row">
+            <div class="col" > <a  class="shake-slow" href='http://lolacaracas.com/' target="_blank" title='lolacaracas'><img width="300px" height="139px" src="portafolio/img/lolacaracas.png" alt="lolacaracas"></a>
+            </div>
+            <div class="col" >
+            <a  class="shake-slow" href='http://www.gourmetmarket.com.ve/' target="_blank" title='gourmetmarket'><img src="portafolio/img/gourmetmarket.png" width="300px" height="137px" alt="gourmetmarket"></a>
+            </div>
+            <div class="col" >
+             <a  class="shake-slow" href='http://www.inmevenca.com/' target="_blank" title='inmevenca'><img src="portafolio/img/inmevenca.png" width="300px" height="137px" alt="inmevenca"></a>
+            </div>
+             <div class="col" >
+            <a  class="shake-slow" href='http://stretchven.com/' target="_blank" title='stretchven'><img src="portafolio/img/stretchven.png" width="300px" height="137px" alt="stretchven"></a>
+</div>
+</div>
+</div>
+
         </section>
-        <br>
+        <br>  
         <section id="contacto" class="main">
             <div class="center">
        
-                <h2 class="seccion">Contacto</h2></div>
+                <h2 class="seccion">Contacto</h2>
  ¿Por qué no le envías un correo electrónico y le explicas cómo puede ayudarte?
                  <br>  
 
 
             <p>
                 
-               <span class="correo"><i class="fa fa-envelope blackiconcolor"></i><a title="Contacto"  href="mailto:lguaiquirian@gmail.com" target="_top">Enviar correo</span></p>
-
+               <span class="correo"><i class="fa fa-envelope blackiconcolor"></i><a title="Contacto"  href="mailto:lguaiquirian@gmail.com" target="_top">Enviar correo</a></span></p>
+</div>
             
         </section>
 
         <div class="footer">Luisa Guaiquirian ® 2018 Todos los derechos reservados.   </div>
 
     </div>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+    <script>
+      setTimeout(function(){
+  $('.hero-image').addClass('magictime slideUpReturn');
+  $('.imagenes').addClass('magictime slideDownReturn');
+ 
+}, 0);
+      
+    </script>
 </body>
 
 </html>
